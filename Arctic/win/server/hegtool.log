@@ -1,0 +1,337 @@
+
+Listing Command Line Options:
+ hegtool -n E:\server\modisProcessing/MODIS/hdf/MOD02QKM.A2016301.2105.006.2016302111541.hdf E:\server\modisProcessing/MODIS/hdf/MOD02QKM.A2016301.2105.006.2016302111541.hdr 
+
+
+Listing Command Line Options:
+ hegtool -n E:\server\modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdf E:\server\modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdr 
+
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_16268 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_16371 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016306.2255.006.2016307073241.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016306.2255.006.2016307073241.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_1016 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_6526 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_7038 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_7200 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016303.2225.006.2016304074137.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_7407 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016306.2255.006.2016307073241.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016306.2255.006.2016307073241.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_7742 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016308.0940.006.2016308193057.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016308.0940.006.2016308193057.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_15811 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016308.1610.006.2016309015429.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016308.1610.006.2016309015429.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_16406 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016308.1745.006.2016309015444.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016308.1745.006.2016309015444.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_16623 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016308.2110.006.2016309102234.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016308.2110.006.2016309102234.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_22253 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016314.0205.006.2016314180359.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016314.0205.006.2016314180359.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_93696 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016314.0200.006.2016314175604.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016314.0200.006.2016314175604.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_95077 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016314.0340.006.2016314175517.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016314.0340.006.2016314175517.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_95764 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016316.0335.006.2016316134841.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016316.0335.006.2016316134841.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_14991 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016316.0150.006.2016316134938.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016316.0150.006.2016316134938.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_15312 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016316.0155.006.2016316134952.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016316.0155.006.2016316134952.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_15755 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016316.0330.006.2016316135004.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016316.0330.006.2016316135004.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_16362 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016317.1105.006.2016317194001.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016317.1105.006.2016317194001.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_25328 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016317.2235.006.2016318073933.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016317.2235.006.2016318073933.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_25801 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016317.2245.006.2016318073847.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016317.2245.006.2016318073847.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_26110 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016318.0520.006.2016318135014.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016318.0520.006.2016318135014.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_32698 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016319.0555.006.2016319132927.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016319.0555.006.2016319132927.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_47544 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016320.1635.006.2016321013233.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016320.1635.006.2016321013233.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_61809 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016321.1545.006.2016322013425.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016321.1545.006.2016322013425.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_79225 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016321.2350.006.2016322081442.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016321.2350.006.2016322081442.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_85153 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016322.0445.006.2016322133451.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016322.0445.006.2016322133451.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_91422 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016328.0910.006.2016329083611.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016328.0910.006.2016329083611.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_87923 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016329.0310.006.2016329133943.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016329.0310.006.2016329133943.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_99339 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016329.0135.006.2016329134732.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016329.0135.006.2016329134732.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_99915 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016330.0545.006.2016330133845.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016330.0545.006.2016330133845.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_3156 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016330.0355.006.2016330134029.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016330.0355.006.2016330134029.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_9331 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016330.1715.006.2016331013033.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016330.1715.006.2016331013033.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_12937 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016331.0440.006.2016331132727.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016331.0440.006.2016331132727.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_18519 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016332.0525.006.2016332135024.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016332.0525.006.2016332135024.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_31295 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016333.0430.006.2016333133116.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016333.0430.006.2016333133116.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_40059 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016340.0435.006.2016340172443.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016340.0435.006.2016340172443.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_22210 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016342.0425.006.2016342135810.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016342.0425.006.2016342135810.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_50663 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016342.0420.006.2016342134843.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016342.0420.006.2016342134843.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_57203 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016344.2050.006.2016345073854.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016344.2050.006.2016345073854.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_95431 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016347.0440.006.2016347134331.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016347.0440.006.2016347134331.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_49767 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016348.2025.006.2016349072901.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016348.2025.006.2016349072901.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_73025 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016352.0500.006.2016352133700.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016352.0500.006.2016352133700.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_52511 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016352.0635.006.2016352233510.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016352.0635.006.2016352233510.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_54297 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016352.1640.006.2016353012807.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016352.1640.006.2016353012807.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_56624 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016352.2000.006.2016353073026.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016352.2000.006.2016353073026.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_64860 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016355.1205.006.2016356012722.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016355.1205.006.2016356012722.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_26995 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016356.1250.006.2016357013038.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016356.1250.006.2016357013038.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_50677 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016359.1320.006.2016360014558.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2016359.1320.006.2016360014558.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_11466 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017005.1525.006.2017006011948.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017005.1525.006.2017006011948.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_89915 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017017.1410.006.2017018013729.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017017.1410.006.2017018013729.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_89597 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017020.1620.006.2017021023122.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017020.1620.006.2017021023122.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_5931 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017023.1510.006.2017024033823.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017023.1510.006.2017024033823.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_22948 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017026.0055.006.2017026132846.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017026.0055.006.2017026132846.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_33595 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017027.2305.006.2017028073342.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017027.2305.006.2017028073342.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_54347 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017031.1110.006.2017031215616.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017031.1110.006.2017031215616.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_67601 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017033.1730.006.2017034013120.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017033.1730.006.2017034013120.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_668 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017035.2035.006.2017036075130.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017035.2035.006.2017036075130.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_52115 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017036.2255.006.2017037072341.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017036.2255.006.2017037072341.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_82588 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017101.0530.006.2017101132328.hdf /Users/PolarProject/Desktop/server/modisProcessing/MODIS/hdf/MOD02QKM.A2017101.0530.006.2017101132328.hdr 
+
+ Detected ? at the end of /Users/PolarProject/Desktop/server/filetable.temp_5497 in try #1. No problem with this file.
+
+Listing Command Line Options:
+ hegtool -n E:\PolarServer\Arctic\win\server\modisProcessing/MODIS/hdf/MOD02QKM.A2017181.0445.006.2017181132132.hdf E:\PolarServer\Arctic\win\server\modisProcessing/MODIS/hdf/MOD02QKM.A2017181.0445.006.2017181132132.hdr 
+
+
+Listing Command Line Options:
+ hegtool -n E:\PolarServer\Arctic\win\server\modisProcessing/MODIS/hdf/MOD02QKM.A2017181.1305.006.2017182013852.hdf E:\PolarServer\Arctic\win\server\modisProcessing/MODIS/hdf/MOD02QKM.A2017181.1305.006.2017182013852.hdr 
+
+
+Listing Command Line Options:
+ hegtool -n E:\PolarServer\Arctic\win\server\modisProcessing/MODIS/hdf/MOD02QKM.A2017181.0310.006.2017181132128.hdf E:\PolarServer\Arctic\win\server\modisProcessing/MODIS/hdf/MOD02QKM.A2017181.0310.006.2017181132128.hdr 
+
+
+Listing Command Line Options:
+ hegtool -n E:\PolarServer\Arctic\win\server\modisProcessing/MODIS/hdf/MOD02QKM.A2017181.0810.006.2017181192950.hdf E:\PolarServer\Arctic\win\server\modisProcessing/MODIS/hdf/MOD02QKM.A2017181.0810.006.2017181192950.hdr 
+
+
+Listing Command Line Options:
+ hegtool -n E:\PolarServer\Arctic\win\server\modisProcessing/MODIS/hdf/MOD02QKM.A2017181.0950.006.2017181193045.hdf E:\PolarServer\Arctic\win\server\modisProcessing/MODIS/hdf/MOD02QKM.A2017181.0950.006.2017181193045.hdr 
+
+
+Listing Command Line Options:
+ hegtool -n E:\PolarServer\Arctic\win\server\modisProcessing/MODIS/hdf/MOD02QKM.A2017181.1615.006.2017182014028.hdf E:\PolarServer\Arctic\win\server\modisProcessing/MODIS/hdf/MOD02QKM.A2017181.1615.006.2017182014028.hdr 
+

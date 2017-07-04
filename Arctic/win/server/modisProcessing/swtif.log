@@ -1,0 +1,3492 @@
+
+*************************************
+    (swtif)   
+Start Time:  Thu Jul 21 22:39:35 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.000000  DMS Degrees
+ projparm[5] = 79016028.673401  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2163294.123477   upleft_mtrs[1]  = 2248894.601957
+lowright_mtrs[0]= 959664.787575   lowright_mtrs[1]= -826226.502274
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12491
+	 Y pixel size = 250.000000 meters	 number of rows    = 12300
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.000000  DMS Degrees
+ projparm[5] = 79016028.673401  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2163294.123477   upleft_mtrs[1]  = 2248894.601957
+lowright_mtrs[0]= 959664.787575   lowright_mtrs[1]= -826226.502274
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12491
+	 Y pixel size = 250.000000 meters	 number of rows    = 12300
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif
+***********************************************
+Ending Time:  Thu Jul 21 22:42:30 2016
+
+Finished processing! 
+CPU time = 172.2 seconds.
+Elapsed time = 175.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Thu Jul 21 23:01:13 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.995651   
+  ...upper left(lon):           -179.999969   
+  ...lower right(lat):          66.307068   
+  ...lower right(lon):          180.000000   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.388878   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.414580   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.054932  DMS Degrees
+ projparm[5] = 78009004.894409  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1281121.309485   upleft_mtrs[1]  = 2585648.650382
+lowright_mtrs[0]= 1572946.248027   lowright_mtrs[1]= -418650.065358
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 11416
+	 Y pixel size = 250.000000 meters	 number of rows    = 12017
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.995651   
+  ...upper left(lon):           -179.999969   
+  ...lower right(lat):          66.307068   
+  ...lower right(lon):          180.000000   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.388878   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.414580   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.054932  DMS Degrees
+ projparm[5] = 78009004.894409  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1281121.309485   upleft_mtrs[1]  = 2585648.650382
+lowright_mtrs[0]= 1572946.248027   lowright_mtrs[1]= -418650.065358
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 11416
+	 Y pixel size = 250.000000 meters	 number of rows    = 12017
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band2.tif
+***********************************************
+Ending Time:  Thu Jul 21 23:04:15 2016
+
+Finished processing! 
+CPU time = 177.9 seconds.
+Elapsed time = 182.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Thu Jul 21 23:22:24 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0740.006.2015244193159.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0740.006.2015244193159.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.998940   
+  ...upper left(lon):           -179.999924   
+  ...lower right(lat):          69.055672   
+  ...lower right(lon):          179.999893   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.619723   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.474373   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0740.006.2015244193159_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 179059059.945068  DMS Degrees
+ projparm[5] = 79031038.300171  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2211284.504835   upleft_mtrs[1]  = 896883.316073
+lowright_mtrs[0]= 914761.202633   lowright_mtrs[1]= -2198233.520886
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12504
+	 Y pixel size = 250.000000 meters	 number of rows    = 12380
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0740.006.2015244193159_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0740.006.2015244193159.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.998940   
+  ...upper left(lon):           -179.999924   
+  ...lower right(lat):          69.055672   
+  ...lower right(lon):          179.999893   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.619723   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.474373   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0740.006.2015244193159_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 179059059.945068  DMS Degrees
+ projparm[5] = 79031038.300171  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2211284.504835   upleft_mtrs[1]  = 896883.316073
+lowright_mtrs[0]= 914761.202633   lowright_mtrs[1]= -2198233.520886
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12504
+	 Y pixel size = 250.000000 meters	 number of rows    = 12380
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0740.006.2015244193159_band2.tif
+***********************************************
+Ending Time:  Thu Jul 21 23:25:06 2016
+
+Finished processing! 
+CPU time = 158.1 seconds.
+Elapsed time = 162.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 10:56:02 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           -48.590145   
+  ...upper left(lon):           98.647415   
+  ...lower right(lat):          -71.385483   
+  ...lower right(lon):          153.324127   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       257.602006   
+  ...OUTPUT_PIXEL_SIZE_Y:       257.579504   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 125059008.776245  DMS Degrees
+ projparm[5] = -59059016.130219  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1300420.729569   upleft_mtrs[1]  = 4466531.116719
+lowright_mtrs[0]= 1727503.597843   lowright_mtrs[1]= 1748202.749484
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12111
+	 Y pixel size = 250.000000 meters	 number of rows    = 10873
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           -48.590145   
+  ...upper left(lon):           98.647415   
+  ...lower right(lat):          -71.385483   
+  ...lower right(lon):          153.324127   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       257.602006   
+  ...OUTPUT_PIXEL_SIZE_Y:       257.579504   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 125059008.776245  DMS Degrees
+ projparm[5] = -59059016.130219  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1300420.729569   upleft_mtrs[1]  = 4466531.116719
+lowright_mtrs[0]= 1727503.597843   lowright_mtrs[1]= 1748202.749484
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12111
+	 Y pixel size = 250.000000 meters	 number of rows    = 10873
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 10:58:38 2016
+
+Finished processing! 
+CPU time = 153.9 seconds.
+Elapsed time = 156.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 11:02:08 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           -48.590145   
+  ...upper left(lon):           98.647415   
+  ...lower right(lat):          -71.385483   
+  ...lower right(lon):          153.324127   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       257.602006   
+  ...OUTPUT_PIXEL_SIZE_Y:       257.579504   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 125059008.776245  DMS Degrees
+ projparm[5] = -59059016.130219  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1300420.729569   upleft_mtrs[1]  = 4466531.116719
+lowright_mtrs[0]= 1727503.597843   lowright_mtrs[1]= 1748202.749484
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12111
+	 Y pixel size = 250.000000 meters	 number of rows    = 10873
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           -48.590145   
+  ...upper left(lon):           98.647415   
+  ...lower right(lat):          -71.385483   
+  ...lower right(lon):          153.324127   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       257.602006   
+  ...OUTPUT_PIXEL_SIZE_Y:       257.579504   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 125059008.776245  DMS Degrees
+ projparm[5] = -59059016.130219  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1300420.729569   upleft_mtrs[1]  = 4466531.116719
+lowright_mtrs[0]= 1727503.597843   lowright_mtrs[1]= 1748202.749484
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12111
+	 Y pixel size = 250.000000 meters	 number of rows    = 10873
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 11:04:45 2016
+
+Finished processing! 
+CPU time = 153.8 seconds.
+Elapsed time = 157.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 11:12:43 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           -48.590145   
+  ...upper left(lon):           98.647415   
+  ...lower right(lat):          -71.385483   
+  ...lower right(lon):          153.324127   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       257.602006   
+  ...OUTPUT_PIXEL_SIZE_Y:       257.579504   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 125059008.776245  DMS Degrees
+ projparm[5] = -59059016.130219  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1300420.729569   upleft_mtrs[1]  = 4466531.116719
+lowright_mtrs[0]= 1727503.597843   lowright_mtrs[1]= 1748202.749484
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12111
+	 Y pixel size = 250.000000 meters	 number of rows    = 10873
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           -48.590145   
+  ...upper left(lon):           98.647415   
+  ...lower right(lat):          -71.385483   
+  ...lower right(lon):          153.324127   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       257.602006   
+  ...OUTPUT_PIXEL_SIZE_Y:       257.579504   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 125059008.776245  DMS Degrees
+ projparm[5] = -59059016.130219  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1300420.729569   upleft_mtrs[1]  = 4466531.116719
+lowright_mtrs[0]= 1727503.597843   lowright_mtrs[1]= 1748202.749484
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12111
+	 Y pixel size = 250.000000 meters	 number of rows    = 10873
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 11:15:36 2016
+
+Finished processing! 
+CPU time = 158.0 seconds.
+Elapsed time = 173.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 11:16:58 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           -48.590145   
+  ...upper left(lon):           98.647415   
+  ...lower right(lat):          -71.385483   
+  ...lower right(lon):          153.324127   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       257.602006   
+  ...OUTPUT_PIXEL_SIZE_Y:       257.579504   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 125059008.776245  DMS Degrees
+ projparm[5] = -59059016.130219  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1300420.729569   upleft_mtrs[1]  = 4466531.116719
+lowright_mtrs[0]= 1727503.597843   lowright_mtrs[1]= 1748202.749484
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12111
+	 Y pixel size = 250.000000 meters	 number of rows    = 10873
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           -48.590145   
+  ...upper left(lon):           98.647415   
+  ...lower right(lat):          -71.385483   
+  ...lower right(lon):          153.324127   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       257.602006   
+  ...OUTPUT_PIXEL_SIZE_Y:       257.579504   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 125059008.776245  DMS Degrees
+ projparm[5] = -59059016.130219  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1300420.729569   upleft_mtrs[1]  = 4466531.116719
+lowright_mtrs[0]= 1727503.597843   lowright_mtrs[1]= 1748202.749484
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12111
+	 Y pixel size = 250.000000 meters	 number of rows    = 10873
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 11:19:34 2016
+
+Finished processing! 
+CPU time = 152.1 seconds.
+Elapsed time = 156.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 12:09:57 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           -48.590145   
+  ...upper left(lon):           98.647415   
+  ...lower right(lat):          -71.385483   
+  ...lower right(lon):          153.324127   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       257.602006   
+  ...OUTPUT_PIXEL_SIZE_Y:       257.579504   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+The file 'E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band1.tif' already exists.
+Encountered a problem, continuing with next request.
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.0050.006.2014218172404.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           -48.590145   
+  ...upper left(lon):           98.647415   
+  ...lower right(lat):          -71.385483   
+  ...lower right(lon):          153.324127   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       257.602006   
+  ...OUTPUT_PIXEL_SIZE_Y:       257.579504   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+The file 'E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.0050.006.2014218172404_band2.tif' already exists.
+Encountered a problem, Exiting.
+***********************************************
+Ending Time:  Fri Jul 22 12:09:57 2016
+
+Finished processing! 
+CPU time = 0.1 seconds.
+Elapsed time = 0.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 12:39:07 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.1550.006.2014218175157.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.1550.006.2014218175157.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           -64.281242   
+  ...upper left(lon):           -179.999985   
+  ...lower right(lat):          -89.996887   
+  ...lower right(lon):          180.000000   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       258.274251   
+  ...OUTPUT_PIXEL_SIZE_Y:       258.258689   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.1550.006.2014218175157_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = -179059059.972534  DMS Degrees
+ projparm[5] = -77008020.633240  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1931311.908600   upleft_mtrs[1]  = 2393918.027293
+lowright_mtrs[0]= 446011.776267   lowright_mtrs[1]= -302559.590476
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 9509
+	 Y pixel size = 250.000000 meters	 number of rows    = 10785
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.1550.006.2014218175157_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2014002.1550.006.2014218175157.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           -64.281242   
+  ...upper left(lon):           -179.999985   
+  ...lower right(lat):          -89.996887   
+  ...lower right(lon):          180.000000   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       258.274251   
+  ...OUTPUT_PIXEL_SIZE_Y:       258.258689   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.1550.006.2014218175157_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = -179059059.972534  DMS Degrees
+ projparm[5] = -77008020.633240  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1931311.908600   upleft_mtrs[1]  = 2393918.027293
+lowright_mtrs[0]= 446011.776267   lowright_mtrs[1]= -302559.590476
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 9509
+	 Y pixel size = 250.000000 meters	 number of rows    = 10785
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2014002.1550.006.2014218175157_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 12:41:57 2016
+
+Finished processing! 
+CPU time = 159.0 seconds.
+Elapsed time = 170.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 13:58:23 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.000000  DMS Degrees
+ projparm[5] = 79016028.673401  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2163294.123477   upleft_mtrs[1]  = 2248894.601957
+lowright_mtrs[0]= 959664.787575   lowright_mtrs[1]= -826226.502274
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12491
+	 Y pixel size = 250.000000 meters	 number of rows    = 12300
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.000000  DMS Degrees
+ projparm[5] = 79016028.673401  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2163294.123477   upleft_mtrs[1]  = 2248894.601957
+lowright_mtrs[0]= 959664.787575   lowright_mtrs[1]= -826226.502274
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12491
+	 Y pixel size = 250.000000 meters	 number of rows    = 12300
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 14:01:22 2016
+
+Finished processing! 
+CPU time = 176.3 seconds.
+Elapsed time = 179.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 14:03:44 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.000000  DMS Degrees
+ projparm[5] = 79016028.673401  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2163294.123477   upleft_mtrs[1]  = 2248894.601957
+lowright_mtrs[0]= 959664.787575   lowright_mtrs[1]= -826226.502274
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12491
+	 Y pixel size = 250.000000 meters	 number of rows    = 12300
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.000000  DMS Degrees
+ projparm[5] = 79016028.673401  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2163294.123477   upleft_mtrs[1]  = 2248894.601957
+lowright_mtrs[0]= 959664.787575   lowright_mtrs[1]= -826226.502274
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12491
+	 Y pixel size = 250.000000 meters	 number of rows    = 12300
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 14:06:47 2016
+
+Finished processing! 
+CPU time = 178.4 seconds.
+Elapsed time = 183.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 14:33:59 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.995651   
+  ...upper left(lon):           -179.999969   
+  ...lower right(lat):          66.307068   
+  ...lower right(lon):          180.000000   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.388878   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.414580   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.054932  DMS Degrees
+ projparm[5] = 78009004.894409  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1281121.309485   upleft_mtrs[1]  = 2585648.650382
+lowright_mtrs[0]= 1572946.248027   lowright_mtrs[1]= -418650.065358
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 11416
+	 Y pixel size = 250.000000 meters	 number of rows    = 12017
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.995651   
+  ...upper left(lon):           -179.999969   
+  ...lower right(lat):          66.307068   
+  ...lower right(lon):          180.000000   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.388878   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.414580   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.054932  DMS Degrees
+ projparm[5] = 78009004.894409  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1281121.309485   upleft_mtrs[1]  = 2585648.650382
+lowright_mtrs[0]= 1572946.248027   lowright_mtrs[1]= -418650.065358
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 11416
+	 Y pixel size = 250.000000 meters	 number of rows    = 12017
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 14:37:03 2016
+
+Finished processing! 
+CPU time = 180.3 seconds.
+Elapsed time = 184.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 15:03:41 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.995651   
+  ...upper left(lon):           -179.999969   
+  ...lower right(lat):          66.307068   
+  ...lower right(lon):          180.000000   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.388878   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.414580   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.054932  DMS Degrees
+ projparm[5] = 78009004.894409  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1281121.309485   upleft_mtrs[1]  = 2585648.650382
+lowright_mtrs[0]= 1572946.248027   lowright_mtrs[1]= -418650.065358
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 11416
+	 Y pixel size = 250.000000 meters	 number of rows    = 12017
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.995651   
+  ...upper left(lon):           -179.999969   
+  ...lower right(lat):          66.307068   
+  ...lower right(lon):          180.000000   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.388878   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.414580   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.054932  DMS Degrees
+ projparm[5] = 78009004.894409  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1281121.309485   upleft_mtrs[1]  = 2585648.650382
+lowright_mtrs[0]= 1572946.248027   lowright_mtrs[1]= -418650.065358
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 11416
+	 Y pixel size = 250.000000 meters	 number of rows    = 12017
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 15:06:45 2016
+
+Finished processing! 
+CPU time = 181.2 seconds.
+Elapsed time = 184.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 18:32:18 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.000000  DMS Degrees
+ projparm[5] = 79016028.673401  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2163294.123477   upleft_mtrs[1]  = 2248894.601957
+lowright_mtrs[0]= 959664.787575   lowright_mtrs[1]= -826226.502274
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12491
+	 Y pixel size = 250.000000 meters	 number of rows    = 12300
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.000000  DMS Degrees
+ projparm[5] = 79016028.673401  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2163294.123477   upleft_mtrs[1]  = 2248894.601957
+lowright_mtrs[0]= 959664.787575   lowright_mtrs[1]= -826226.502274
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12491
+	 Y pixel size = 250.000000 meters	 number of rows    = 12300
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 18:35:23 2016
+
+Finished processing! 
+CPU time = 181.9 seconds.
+Elapsed time = 185.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 19:01:23 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.995651   
+  ...upper left(lon):           -179.999969   
+  ...lower right(lat):          66.307068   
+  ...lower right(lon):          180.000000   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.388878   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.414580   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.054932  DMS Degrees
+ projparm[5] = 78009004.894409  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1281121.309485   upleft_mtrs[1]  = 2585648.650382
+lowright_mtrs[0]= 1572946.248027   lowright_mtrs[1]= -418650.065358
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 11416
+	 Y pixel size = 250.000000 meters	 number of rows    = 12017
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.995651   
+  ...upper left(lon):           -179.999969   
+  ...lower right(lat):          66.307068   
+  ...lower right(lon):          180.000000   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.388878   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.414580   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.054932  DMS Degrees
+ projparm[5] = 78009004.894409  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1281121.309485   upleft_mtrs[1]  = 2585648.650382
+lowright_mtrs[0]= 1572946.248027   lowright_mtrs[1]= -418650.065358
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 11416
+	 Y pixel size = 250.000000 meters	 number of rows    = 12017
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 19:04:34 2016
+
+Finished processing! 
+CPU time = 188.1 seconds.
+Elapsed time = 191.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 19:29:15 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0740.006.2015244193159.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0740.006.2015244193159.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.998940   
+  ...upper left(lon):           -179.999924   
+  ...lower right(lat):          69.055672   
+  ...lower right(lon):          179.999893   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.619723   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.474373   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0740.006.2015244193159_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 179059059.945068  DMS Degrees
+ projparm[5] = 79031038.300171  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2211284.504835   upleft_mtrs[1]  = 896883.316073
+lowright_mtrs[0]= 914761.202633   lowright_mtrs[1]= -2198233.520886
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12504
+	 Y pixel size = 250.000000 meters	 number of rows    = 12380
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0740.006.2015244193159_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0740.006.2015244193159.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.998940   
+  ...upper left(lon):           -179.999924   
+  ...lower right(lat):          69.055672   
+  ...lower right(lon):          179.999893   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.619723   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.474373   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0740.006.2015244193159_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 179059059.945068  DMS Degrees
+ projparm[5] = 79031038.300171  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2211284.504835   upleft_mtrs[1]  = 896883.316073
+lowright_mtrs[0]= 914761.202633   lowright_mtrs[1]= -2198233.520886
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12504
+	 Y pixel size = 250.000000 meters	 number of rows    = 12380
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0740.006.2015244193159_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 19:32:05 2016
+
+Finished processing! 
+CPU time = 166.9 seconds.
+Elapsed time = 170.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 19:56:48 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0920.006.2015244193736.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0920.006.2015244193736.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.996513   
+  ...upper left(lon):           -179.999908   
+  ...lower right(lat):          67.399902   
+  ...lower right(lon):          179.999222   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.445961   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.464949   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0920.006.2015244193736_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = -1.235962  DMS Degrees
+ projparm[5] = 78041053.548279  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -444084.470149   upleft_mtrs[1]  = 1210733.559938
+lowright_mtrs[0]= 2407196.176395   lowright_mtrs[1]= -1416139.900964
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 11405
+	 Y pixel size = 250.000000 meters	 number of rows    = 10507
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0920.006.2015244193736_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0920.006.2015244193736.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.996513   
+  ...upper left(lon):           -179.999908   
+  ...lower right(lat):          67.399902   
+  ...lower right(lon):          179.999222   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.445961   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.464949   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0920.006.2015244193736_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = -1.235962  DMS Degrees
+ projparm[5] = 78041053.548279  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -444084.470149   upleft_mtrs[1]  = 1210733.559938
+lowright_mtrs[0]= 2407196.176395   lowright_mtrs[1]= -1416139.900964
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 11405
+	 Y pixel size = 250.000000 meters	 number of rows    = 10507
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0920.006.2015244193736_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 19:59:38 2016
+
+Finished processing! 
+CPU time = 167.3 seconds.
+Elapsed time = 170.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Fri Jul 22 20:19:49 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.1100.006.2015244193430.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.1100.006.2015244193430.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.997017   
+  ...upper left(lon):           -179.986099   
+  ...lower right(lat):          64.905891   
+  ...lower right(lon):          179.984131   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.364647   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.419338   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.1100.006.2015244193430_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = -3.543091  DMS Degrees
+ projparm[5] = 77027005.234985  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -584319.267946   upleft_mtrs[1]  = 186282.673692
+lowright_mtrs[0]= 2083944.356361   lowright_mtrs[1]= -2178487.195249
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 10673
+	 Y pixel size = 250.000000 meters	 number of rows    = 9459
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.1100.006.2015244193430_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.1100.006.2015244193430.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.997017   
+  ...upper left(lon):           -179.986099   
+  ...lower right(lat):          64.905891   
+  ...lower right(lon):          179.984131   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.364647   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.419338   
+  ...OUTPUT_FILENAME:           E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.1100.006.2015244193430_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = -3.543091  DMS Degrees
+ projparm[5] = 77027005.234985  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -584319.267946   upleft_mtrs[1]  = 186282.673692
+lowright_mtrs[0]= 2083944.356361   lowright_mtrs[1]= -2178487.195249
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 10673
+	 Y pixel size = 250.000000 meters	 number of rows    = 9459
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.1100.006.2015244193430_band2.tif
+***********************************************
+Ending Time:  Fri Jul 22 20:22:33 2016
+
+Finished processing! 
+CPU time = 161.5 seconds.
+Elapsed time = 164.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Sat Jul 23 11:06:52 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.000000  DMS Degrees
+ projparm[5] = 79016028.673401  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2163294.123477   upleft_mtrs[1]  = 2248894.601957
+lowright_mtrs[0]= 959664.787575   lowright_mtrs[1]= -826226.502274
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12491
+	 Y pixel size = 250.000000 meters	 number of rows    = 12300
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.000000  DMS Degrees
+ projparm[5] = 79016028.673401  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2163294.123477   upleft_mtrs[1]  = 2248894.601957
+lowright_mtrs[0]= 959664.787575   lowright_mtrs[1]= -826226.502274
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12491
+	 Y pixel size = 250.000000 meters	 number of rows    = 12300
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif
+***********************************************
+Ending Time:  Sat Jul 23 11:09:54 2016
+
+Finished processing! 
+CPU time = 180.9 seconds.
+Elapsed time = 182.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Sat Jul 23 12:01:16 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.000000  DMS Degrees
+ projparm[5] = 79016028.673401  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2163294.123477   upleft_mtrs[1]  = 2248894.601957
+lowright_mtrs[0]= 959664.787575   lowright_mtrs[1]= -826226.502274
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12491
+	 Y pixel size = 250.000000 meters	 number of rows    = 12300
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.000000  DMS Degrees
+ projparm[5] = 79016028.673401  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -2163294.123477   upleft_mtrs[1]  = 2248894.601957
+lowright_mtrs[0]= 959664.787575   lowright_mtrs[1]= -826226.502274
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 12491
+	 Y pixel size = 250.000000 meters	 number of rows    = 12300
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif
+***********************************************
+Ending Time:  Sat Jul 23 12:04:16 2016
+
+Finished processing! 
+CPU time = 177.9 seconds.
+Elapsed time = 180.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Sat Jul 23 12:38:23 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+The file 'E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band1.tif' already exists.
+Encountered a problem, continuing with next request.
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0105.006.2015244134330.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.994713   
+  ...upper left(lon):           -179.999939   
+  ...lower right(lat):          68.554550   
+  ...lower right(lon):          179.999939   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.493057   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.469417   
+  ...OUTPUT_FILENAME:           E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+The file 'E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0105.006.2015244134330_band2.tif' already exists.
+Encountered a problem, Exiting.
+***********************************************
+Ending Time:  Sat Jul 23 12:38:23 2016
+
+Finished processing! 
+CPU time = 0.2 seconds.
+Elapsed time = 0.0 seconds.
+***********************************************
+Job completed....
+
+*************************************
+    (swtif)   
+Start Time:  Sat Jul 23 13:50:51 2016
+
+**************************************
+
+Listing Command Line Options:
+ swtif -p E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.prm 
+
+Translating input file 1... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.995651   
+  ...upper left(lon):           -179.999969   
+  ...lower right(lat):          66.307068   
+  ...lower right(lon):          180.000000   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.388878   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.414580   
+  ...OUTPUT_FILENAME:           E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band1.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.054932  DMS Degrees
+ projparm[5] = 78009004.894409  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1281121.309485   upleft_mtrs[1]  = 2585648.650382
+lowright_mtrs[0]= 1572946.248027   lowright_mtrs[1]= -418650.065358
+
+Warning: lat/lon of subset corners are about the same as the lat/lon for the converted swath.
+	Unneccessary subsetting will not be performed.
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 11416
+	 Y pixel size = 250.000000 meters	 number of rows    = 12017
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 1) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_0, band 1) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 1:E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band1.tif
+Translating input file 2... 
+ReadParameterFile_S: Successfully read paramter file for this run.
+
+Shortname for input product = MOD02QKM
+
+===  Parameter file input variables ====
+  ...INPUT_FILENAME:            E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/MOD02QKM.A2015244.0245.006.2015244134529.hdf   
+  ...OBJECT_NAME:               MODIS_SWATH_Type_L1B   
+  ...FIELD_NAME:                EV_250_RefSB   
+  ...upper left(lat):           89.995651   
+  ...upper left(lon):           -179.999969   
+  ...lower right(lat):          66.307068   
+  ...lower right(lon):          180.000000   
+  ...OUTPUT_PROJECTION_TYPE:    PS   
+  ...OUTPUT_PROJECTION_PARAMETERS: ( 
+  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  ) 
+  ...OUTPUT_PIXEL_SIZE_X:       253.388878   
+  ...OUTPUT_PIXEL_SIZE_Y:       253.414580   
+  ...OUTPUT_FILENAME:           E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band2.tif   
+  ...OUTPUT_TYPE:               GEO   
+
+ SWATH data set, pixel_size_x has been rounded to 250.000000:
+ SWATH data set, pixel_size_y has been rounded to 250.000000: 
+
+Please wait. Reading/interpolating lats/lons .....
+ **** Output Projection is Polar Streographic ****
+projparm[4] = 0.054932  DMS Degrees
+ projparm[5] = 78009004.894409  DMS Degrees
+
+ *** Grid Rectangle Corners in Meters unit ***
+upleft_mtrs[0]  = -1281121.309485   upleft_mtrs[1]  = 2585648.650382
+lowright_mtrs[0]= 1572946.248027   lowright_mtrs[1]= -418650.065358
+ 
+Swath temp files for lats/lons will require about 351498 KB of disk space (in the disk containing heg's bin directory).
+  
+Finished reading/interpolating lats, doing lons .....
+  
+Note: Tile crossed dateline.
+  
+	 Number of rows in input data field = 8120 offsety = 1
+	 Number of cols in input data field = 5416 offsetx = 0
+	 Number of rows in input lat/lon field = 8117
+	 Number of cols in input lat/lon field = 5413
+
+ OUTPUT GRID:
+	 X pixel size = 250.000000 meters	 number of columns = 11416
+	 Y pixel size = 250.000000 meters	 number of rows    = 12017
+
+% of Swath to Grid or Swath (field EV_250_RefSB, band 2) conversion: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Started writing Metadata to output hdf file .......
+Could not find TimeofDay attribute in input hdf file.
+Could not find CalendarDate attribute in input hdf file.
+Could not find first SENSORNAME attribute in input hdf file.
+Could not find first POINTINGANGLE attribute in input hdf file.
+Could not find first SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find second SENSORNAME attribute in input hdf file.
+Could not find second POINTINGANGLE attribute in input hdf file.
+Could not find second SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find third SENSORNAME attribute in input hdf file.
+Could not find third POINTINGANGLE attribute in input hdf file.
+Could not find third SETTINGTIMEOFPOINTING attribute in input hdf file.
+Could not find MAPORIENTATIONANGLE attribute in input hdf file.
+Could not find SOLARDIRECTION attribute in input hdf file.
+Some of the Mandatory metadata were not set.
+Finished writing Metadata to output hdf file.
+
+Creating tiff output file ......
+
+	 Tiff file will include 1 bands.
+
+% of (field EV_250_RefSB_1, band 2) written to tif file: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+finalizing tif file .........
+
+Output file 2:E:\PyCharm\PolarProject\modisProcessing\MODIS/hdf/HEGOUT\MOD02QKM.A2015244.0245.006.2015244134529_band2.tif
+***********************************************
+Ending Time:  Sat Jul 23 13:54:08 2016
+
+Finished processing! 
+CPU time = 192.8 seconds.
+Elapsed time = 197.0 seconds.
+***********************************************
+Job completed....
